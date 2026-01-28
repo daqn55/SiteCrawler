@@ -192,7 +192,7 @@ namespace CielaCrawler
             this.textBox_linkPage.Name = "textBox_linkPage";
             this.textBox_linkPage.Size = new System.Drawing.Size(61, 23);
             this.textBox_linkPage.TabIndex = 32;
-            this.textBox_linkPage.Text = "0";
+            this.textBox_linkPage.Text = "1";
             this.textBox_linkPage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btn_close
@@ -997,13 +997,13 @@ namespace CielaCrawler
             this.tab2_textBox_link.Size = new System.Drawing.Size(320, 23);
             this.tab2_textBox_link.TabIndex = 35;
             // 
-            // Ciela
+            // CrawlerDesine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(725, 485);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Ciela";
+            this.Name = "CrawlerDesine";
             this.Text = "Сваляне на книги от сайтове";
             this.Load += new System.EventHandler(this.Ciela_Load);
             this.tabControl1.ResumeLayout(false);
